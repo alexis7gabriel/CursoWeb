@@ -1,0 +1,58 @@
+https://tablericons.com pagina para agregar iconos
+
+utilizar rem para el tamaño de los pixeles para que se adapte a cualquier pantalla
+
+css es en cascada pero toma primero la especifidad, o sea, mientras más especifico sea el css lo va a tomar como prioritario
+existe la etiqueta importan¡
+
+rgba() y hsla() para transparencia
+
+//creas variables globales
+:root{
+	--color: 0xFFFFFF
+}
+
+google font para revisar fuentes
+
+margin
+display block inline
+padding
+
+display flex habilita el justify
+flex-direction es para habilitar alinear hor o ver
+justify-content alinear horizontalmente
+align-items para alinear verticalmente
+
+BEM bloques elementos modificadores
+modulos y utilidades
+
+hover para cambiar cuando estas sobre el cursor
+
+media queries
+768px para tablet
+480px para telefono
+1140px laptop
+1440px 
+
+position : relative es para el padre
+y position : absolute es para el hijo
+se acomoda con left, right, top, bottom  
+
+BACKGROUND-IMAGE: LINEAR-gradiente(to "direccion", color porcentaje, color porcentaje)
+
+css matic para degradado
+
+css grid
+ubicacion del tamaño de los elementos
+una tabla html pero más flexible y con más control
+puedes tener control de izq-der o arri-abajo
+se activan con grid-template-columns: 300px 300px; grid-template-rows: 300px 300px;
+o una forma más fácil es grid: valores de las filas / valores de las columnas
+
+lo mejor es por porcentajes o por fracciones 1fr 1fr 1fr o con repeat(n, 1fr)
+
+
+recomendaciones para flexbox o css grid
+flexbox cuando se quieren alinear elementos dentro de un contenedor
+css grid cuando define el layout para columnas o filas, para distribuir distintas areas
+
